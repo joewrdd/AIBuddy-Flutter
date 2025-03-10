@@ -5,10 +5,11 @@ import 'package:mellowtel/mellowtel.dart';
 
 final mellowtel = Mellowtel(
   '7478a4e8',
-  appName: 'AI Buddy',
-  appIcon: 'assets/images/app_logo.png',
-  incentive: 'Help us continue building AI Buddy',
-  yesText: '',
+  dialogConfiguration: const ConsentDialogConfiguration(
+    appName: 'AI Buddy',
+    appIcon: 'assets/images/app_logo.png',
+    incentive: 'Help us continue building AI Buddy',
+  ),
 );
 
 Future<void> startMellowtel(
