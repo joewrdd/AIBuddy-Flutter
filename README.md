@@ -136,7 +136,7 @@ lib/
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request.
+Contributions are welcome! Please feel free to submit a pull request or ask for any contributions.
 
 ## License
 
